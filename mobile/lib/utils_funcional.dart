@@ -11,9 +11,7 @@ String descripcionAmigableFunc(String? textoAgrupado, String? displayName) {
   return textoAgrupado ?? displayName ?? 'Horario no especificado';
 }
 
-// # Lógica funcional pura para procesar la respuesta del login usando TaskEither
 // Devuelve Left(error) en caso de fallo, o Right(token) en caso de éxito.
-// Esta versión utiliza una composición de funciones (pipeline) para evitar if/else.
 TaskEither<String, String> processLoginResponseFunc(int statusCode, String responseBody) {
   return TaskEither<String, String>.fromPredicate(
     responseBody,
@@ -45,7 +43,6 @@ TaskEither<String, String> processLoginResponseFunc(int statusCode, String respo
   });
 }
 
-// # Función funcional para procesar respuestas de registro usando TaskEither
 // Maneja diferentes tipos de errores de registro (IdentityError, ModelState, etc.)
 TaskEither<String, String> processRegisterResponseFunc(int statusCode, String responseBody) {
   return TaskEither<String, String>.fromPredicate(
@@ -82,7 +79,7 @@ TaskEither<String, String> processRegisterResponseFunc(int statusCode, String re
   });
 }
 
-// # Función funcional para validar campos de formulario usando Either
+
 // Devuelve Left(errorMessage) si la validación falla, Right(value) si es válido
 Either<String, String> validateRequiredFieldFunc(String? value, String fieldName) {
   return Either.fromPredicate(
