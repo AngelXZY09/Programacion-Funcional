@@ -1,0 +1,1 @@
+ C:\\Users\\angel\\Downloads\\Dual\\Proyecto\ dual\\CreditTEC\\mobile\\.dart_tool\\flutter_build\\6c76a3706e77bfcc8152e37c87b3c142\\native_assets.json: 

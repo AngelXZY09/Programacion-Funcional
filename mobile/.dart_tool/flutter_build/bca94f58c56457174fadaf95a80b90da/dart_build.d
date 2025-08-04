@@ -1,0 +1,1 @@
+ C:\\Users\\angel\\Downloads\\Nube\\mobile\\.dart_tool\\flutter_build\\bca94f58c56457174fadaf95a80b90da\\dart_build_result.json: 

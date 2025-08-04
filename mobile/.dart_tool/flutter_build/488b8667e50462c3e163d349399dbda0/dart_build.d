@@ -1,0 +1,1 @@
+ C:\\Users\\angel\\Downloads\\Dual\\Proyecto\ dual\\CreditTEC\\mobile\\.dart_tool\\flutter_build\\488b8667e50462c3e163d349399dbda0\\dart_build_result.json: 
